@@ -1,0 +1,17 @@
+label, input, textarea, button {
+    margin: 20px;
+    padding: 5px;
+}
+
+textarea {
+    height: 25vh;
+}
+
+.button-row {
+    display: flex;
+    justify-content: space-around;
+}
+
+input, textarea {
+    font-size: 1em;
+}

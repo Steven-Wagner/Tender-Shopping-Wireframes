@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+
+  <head>
+      <title>HTML wireframe New Product Page</title>
+      <meta name="viewport" content="width=device-width, initial-scale=1">
+      <link rel="stylesheet" type="text/css" href="main.css">
+      <link rel="stylesheet" type="text/css" href="newProduct.css">
+  </head>
+
+    <body>
+        <nav role="navigation">Nav</nav>
+        <main>
+            <header>
+                <h2 class="page-header">New Product</h2>
+            </header>
+            <form>
+                <label for="title">Title</label>
+                <input type="text" id="title"/>
+                
+                <label for="product-img">Image URL (optinal)</label>
+                <input type="text" id="product-img"/>
+
+                <label for="product-description">Product Description</label>
+                <textarea id="product-description">Machine washable with like colors</textarea>
+
+                <div class="price-ad-wrapper">
+                    <div class="price-wrapper">
+                        <label for="product-price">Price:</label>
+                        <input id="product-price" type="number" step="1"/>
+                    </div>
+                    
+                    <label for="advertise-product">Ad Spending</label>
+                    <select id="advertise-product">
+                        <option value="None" selected="selected">None</option>
+                        <option value="Homepage ads">Homepage ads - 50 Play Money per day</option>
+                        <option value="Popup ads">Popup ads - 100 Play Money per day</option>
+                        <option value="Annoying Ads">Annoying Ads - 150 Play Money per day</option>
+                    </select>
+                </div>
+
+                <button type="submit">Submit</button>
+
+            </form>
+        </main>
+    </body>
+</html>

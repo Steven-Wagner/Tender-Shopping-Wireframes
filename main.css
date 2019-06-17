@@ -1,0 +1,155 @@
+* {
+    box-sizing: border-box;
+  }
+  
+  body {
+    font-family: "Open Sans",
+    sans-serif;
+    font-size: 20px;
+    color: #444;
+    text-align: center;
+    line-height: 1.5;
+  }
+  
+  nav,
+  footer {
+    padding: 5px 0;
+    background-color: #aaa;
+  }
+  
+  nav {
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    z-index: 10;
+  }
+  
+  header {
+    padding: 45px 15px;
+  }
+
+  .top-row {
+    display: flex;
+    flex-direction: column;
+    margin: 50px 0 0 0;
+
+  }
+  .ad {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 10px;
+    border-radius: 5px;
+    border: 1px solid black;
+  }
+  .info {
+    display: flex;
+    flex-direction: column;
+  }
+
+
+  .name-money {
+      display: flex;
+      justify-content: space-between;
+      width: 100%;
+  }
+
+  .name-and-money {
+    display: flex;
+    justify-content: space-between;
+  }
+
+  .name {
+    margin: 0 20px 0 20px;
+    font-weight: bold;
+  }
+
+  .play-money-total {
+    font-weight: bold;
+    margin: 0 20px 0 0;
+    padding: 0 5px;
+    border: 1px solid black;
+    border-radius: 10px;
+    height: 1.5em;
+  }
+
+  .description {
+      margin: 20px;
+  }
+
+  .shopping-page-info {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+  }
+
+  .done-button {
+      padding: 5px;
+      margin: 5px;
+  }
+
+  .shopping-page-info div {
+      margin: 5px 20px;
+  }
+
+  .current-product {
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+  }
+
+  .product-pic {
+      height: 25vh;
+      width: 75%;
+      border: 1px solid black;
+      border-radius: 5px;
+  }
+
+  .stars {
+    font-size: 1.5em;
+  }
+
+  .choose-buttons {
+      width: 100%;
+      display: flex;
+      justify-content: space-evenly;
+  }
+
+  .current-product button {
+      padding: 10px;
+      margin: 10px;
+      width: 40%;
+      font-size: 1.2em;
+  }
+  
+  section {
+    min-height: 200px;
+    padding: 30px 15px;
+    background-color: #bbb;
+  }
+
+  .top-selling-item {
+      margin: 15px 0;
+      border: 1px solid black;
+      border-radius: 5px;
+  }
+
+  .profit {
+      color: green;
+  }
+  
+  section:nth-child(even) {
+    background-color: #ddd;
+  }
+  
+  p {
+    margin: 0 auto;
+    max-width: 650px;
+  }
+  
+  p + p {
+    margin-top: 15px;
+  }
+  
