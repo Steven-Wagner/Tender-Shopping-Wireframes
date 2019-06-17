@@ -13,16 +13,19 @@
   
   nav,
   footer {
+    display: flex;
+    justify-content: center;
     padding: 5px 0;
     background-color: #aaa;
+    flex-wrap: wrap;
   }
   
   nav {
-    position: fixed;
-    top: 0;
-    left: 0;
-    right: 0;
     z-index: 10;
+  }
+
+  a {
+      margin: 5px;
   }
   
   header {
